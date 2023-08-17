@@ -1,0 +1,9 @@
+// Run it create lexer code ('lex.yy.c by default)
+
+flex arithmetic.l
+
+// compile the lexer code
+gcc -o lexer lex.yy.c -lfl 
+
+// run the lexer layer 
+./lexer
