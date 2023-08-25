@@ -445,8 +445,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "blockwithatleast35.l"
-#line 2 "blockwithatleast35.l"
+#line 1 "que.l"
+#line 2 "que.l"
 #include <stdio.h>
 #line 452 "lex.yy.c"
 #line 453 "lex.yy.c"
@@ -666,7 +666,7 @@ YY_DECL
 		}
 
 	{
-#line 5 "blockwithatleast35.l"
+#line 5 "que.l"
 
 #line 672 "lex.yy.c"
 
@@ -728,17 +728,17 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 /* rule 1 can match eol */
 YY_RULE_SETUP
-#line 6 "blockwithatleast35.l"
-printf("String satisfies the condition.\n");
+#line 6 "que.l"
+printf("String belongs to grammar.\n");
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 7 "blockwithatleast35.l"
-printf("String does not satisfy the condition.\n");
+#line 7 "que.l"
+printf("String does beloings to grmmar.\n");
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 8 "blockwithatleast35.l"
+#line 8 "que.l"
 ECHO;
 	YY_BREAK
 #line 745 "lex.yy.c"
@@ -1746,11 +1746,12 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 8 "blockwithatleast35.l"
+#line 8 "que.l"
 
 
 int main() {
     yylex();
     return 0;
 }
+
 
